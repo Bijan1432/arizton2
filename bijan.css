@@ -1,0 +1,86 @@
+.card-carrousel h3 {
+  margin-top: 3%;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ed7d31;
+}
+.card-carrousel img {
+  width: 70%;
+}
+.card-carrousel p {
+  text-align: justify;
+}
+.card-carrousel #card-carrousel .item {
+  height: 390px !important;
+  position: relative;
+}
+.card-carrousel #card-carrousel .item button {
+  position: absolute;
+  bottom: 0;
+}
+.card-carrousel2 {
+  padding: 8% 0;
+}
+.card-carrousel2 .box-card-up,
+.card-carrousel2 .box-card-down {
+  display: inline-block;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0px 0px -5px 0px #0c3516;
+  box-shadow: 0px 0px -5px 0px #0c3516;
+  padding: 60px 20px;
+  height: 332px;
+  text-align: center;
+  border-radius: 14%;
+}
+.card-carrousel2 .box-card-up h4,
+.card-carrousel2 .box-card-down h4 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}
+.card-carrousel2 .box-card-up p,
+.card-carrousel2 .box-card-down p {
+  margin-bottom: 34px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.card-carrousel2 .box-up {
+  margin-top: -20px;
+}
+.card-carrousel2 .box-down {
+  margin-top: 20px;
+}
+.card-carrousel2 .txt-col {
+  margin-top: 25px;
+}
+.card-carrousel2 .txt-col p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.p0 {
+  padding: 0 5px;
+}
+.owl-stage-outer {
+  padding-top: 25px;
+}
+.card-carrousel3 {
+  position: relative;
+}
+.card-carrousel3 p {
+  font-size: 18px;
+}
+.card-carrousel3 h5 {
+  margin-top: 5px;
+  font-weight: 700;
+}
+.card-carrousel3 img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media only screen and (max-width: 480px) {
+  .card-carrousel3 img {
+    margin: 22px 0;
+    position: relative;
+  }
+}
